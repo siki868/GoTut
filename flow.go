@@ -55,7 +55,7 @@ func sw() {
 	}
 }
 
-func main() {
+func sve2() {
 	// ez for
 	sum := 0
 	for i := 0; i < 20; i++ {
