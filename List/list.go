@@ -60,7 +60,7 @@ func appendFront(head, element *Node) *Node {
 	element.next = head
 	return element
 }
-func main2() {
+func main() {
 
 	list := List{nil, 0}
 	lista := &list

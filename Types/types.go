@@ -37,7 +37,7 @@ func fib() func() int {
 	}
 }
 
-func main4() {
+func main() {
 
 	// Klasicno slajsovanje iz python-a
 	primes := []int{2, 3, 5, 7, 11, 13, 17, 19}

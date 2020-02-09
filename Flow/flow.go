@@ -63,7 +63,7 @@ func sw() {
 	}
 }
 
-func main1() {
+func main() {
 	// ez for
 	sum := 0
 	for i := 0; i < 20; i++ {
@@ -83,7 +83,10 @@ func main1() {
 		fmt.Println("False")
 	}
 
-	// Moze da ima pocetnu dekleraciju kao i for i da ima return
+	// Moze da ima pocetnu dekleraciju kao i for i da ima
+	add := func(a, b int) int {
+		return a + b
+	}
 	if k := add(20, 30); k < sum {
 		fmt.Println(k, sum, math.Abs(float64(k-sum)))
 	}
