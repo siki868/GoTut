@@ -41,7 +41,7 @@ func naked(sum int) (x, y int) {
 	return
 }
 
-func sve() {
+func main0() {
 
 	// Swap
 	a, b := swap("beep", "boop")

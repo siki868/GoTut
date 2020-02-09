@@ -1,7 +1,8 @@
 package main
 
-// Primer liste u go-u, ne radi kako treba :)
-
+/*
+ Primer liste u go-u, radi obrnuto iz nekog razloga?
+*/
 import (
 	"fmt"
 )
@@ -59,7 +60,7 @@ func appendFront(head, element *Node) *Node {
 	element.next = head
 	return element
 }
-func main() {
+func main2() {
 
 	list := List{nil, 0}
 	lista := &list

@@ -6,6 +6,14 @@ import (
 	"time"
 )
 
+/*
+	Defer
+	Switch
+	If
+	For
+	While
+*/
+
 // Stack defer
 func deferStacked() {
 	fmt.Println("Pocinjem loop")
@@ -55,7 +63,7 @@ func sw() {
 	}
 }
 
-func sve2() {
+func main1() {
 	// ez for
 	sum := 0
 	for i := 0; i < 20; i++ {
